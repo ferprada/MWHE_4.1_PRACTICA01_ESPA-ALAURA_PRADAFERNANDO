@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>analuisa corrigan</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>analuisa corrigan</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -14,6 +15,18 @@
         </div>
     </header>
     <main>
+        <section id="menu">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              *
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">projects</button></li>
+              <li><button class="dropdown-item" type="button">mirror</button></li>
+              <li><button class="dropdown-item" type="button">studio</button></li>
+            </ul>
+          </div>
+        </section>
         <section id="projects">
             <h2>projects</h2>
         </section>
@@ -25,13 +38,9 @@
         </section>
     </main>
     <footer>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
