@@ -15,6 +15,7 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    background-image: rgb(255, 251, 210);
 }
 
 /* HEADER VIDEO */
@@ -37,6 +38,18 @@ h1 {
     color: hsla(0, 0%, 0%, .9);
     font-size: 6em;
 }
+
+h2 {
+    color: hsla(0, 0%, 0%, .9);
+    font-size: 4em;
+}
+
+h3 {
+    color: hsla(0, 0%, 0%, .9);
+    font-size: 3em;
+    font-style: oblique;
+}
+
 
 
 /* MENÚ */
@@ -97,4 +110,30 @@ section > h2 {
 
 section > p {
     margin: 0 600px;
+}
+
+
+
+/* PROJECTS */
+#projects {
+    width: 100%;
+    max-width: none;
+    position: relative;
+    height: 400vh;
+}
+
+#projects > div > img {
+    float: left;
+    width: 1000px;
+    height: 500px;
+}
+
+#projects > div > p {
+    margin-right: 10px;
+    margin-top: 20em;
+}
+
+.lamp {
+    width: 100%;
+    height: auto;
 }
