@@ -77,7 +77,7 @@ h3 {
 }
 
 #menu > ul > li > a {
-    font-weight: 1000;
+    font-weight: 500;
     color: #000000;
 }
 
@@ -86,7 +86,7 @@ h3 {
 }
 
 #menu > ul > li > a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 
