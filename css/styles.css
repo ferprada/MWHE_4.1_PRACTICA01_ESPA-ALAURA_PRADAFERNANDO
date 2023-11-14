@@ -15,7 +15,7 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 251, 210);
+    background-image: url("header.gif");
 }
 
 /* HEADER VIDEO */
@@ -56,11 +56,11 @@ h3 {
 .menu {
     display: flex;
     justify-content: center;
-    height: 80px;
-    background-color: black;
-    z-index: 1;
     align-items: center;
     position: sticky;
+    height: 80px;
+    background-color: rgb(255, 251, 210);
+    z-index: 1;
     top: 0;
 }
 
@@ -77,7 +77,6 @@ h3 {
 }
 
 #menu > ul > li > a {
-    text-decoration: underline;
     font-weight: 1000;
     color: #000000;
 }
@@ -120,6 +119,8 @@ section > p {
     position: relative;
     height: 400vh;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #projects > div > img {
