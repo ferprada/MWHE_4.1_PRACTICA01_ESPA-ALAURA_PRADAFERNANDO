@@ -42,8 +42,9 @@ header > h1 {
 }
 
 header > h4 {
-    font-size: 3em;
+    font-size: 10em;
     padding-right: 1000px;
+    padding-bottom: 1em;
 }
 
 h2 {
