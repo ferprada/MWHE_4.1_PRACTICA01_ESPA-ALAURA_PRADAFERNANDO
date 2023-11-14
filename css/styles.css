@@ -15,7 +15,7 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: rgb(255, 251, 210);
+    background-color: rgb(255, 251, 210);
 }
 
 /* HEADER VIDEO */
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
     color: hsla(0, 0%, 0%, .9);
-    font-size: 3em;
+    font-size: 1.5em;
     font-style: oblique;
 }
 
@@ -98,14 +98,13 @@ section {
     height: 100vh;
     padding: 40px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 section > h2 {
     margin: 80px;
     font-size: 8em;
-    color: #fffb00;
+    color: #000000;
 }
 
 section > p {
@@ -120,20 +119,17 @@ section > p {
     max-width: none;
     position: relative;
     height: 400vh;
+    display: flex;
 }
 
 #projects > div > img {
     float: left;
-    width: 1000px;
+    width: 500px;
     height: 500px;
+    z-index: auto;
 }
 
 #projects > div > p {
     margin-right: 10px;
-    margin-top: 20em;
-}
-
-.lamp {
-    width: 100%;
-    height: auto;
+    margin-top: 2em;
 }
