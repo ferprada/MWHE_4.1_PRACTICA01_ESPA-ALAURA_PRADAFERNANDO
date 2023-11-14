@@ -120,14 +120,6 @@ section > p {
     height: 400vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-#projects > div > img {
-    float: left;
-    width: 500px;
-    height: 500px;
-    z-index: auto;
 }
 
 #projects > div > h2 {
@@ -139,4 +131,11 @@ section > p {
     margin-right: 10px;
     margin-top: 1em;
     margin-left: 10px;
+}
+
+#projects > div > img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    z-index: auto;
 }
