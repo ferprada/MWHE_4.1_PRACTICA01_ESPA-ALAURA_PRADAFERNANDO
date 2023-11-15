@@ -1,3 +1,14 @@
+// HEADER
+document.addEventListener("DOMContentLoaded", function () {
+  var miHeader = document.getElementById("miHeader");
+
+  miHeader.addEventListener("click", function () {
+      alert("Hiciste clic en el encabezado");
+  });
+});
+
+
+
 // MIRROR
 function changeImage(element) {
   element.src = "hover_" + element.alt.split(" ")[1] + ".jpg";
