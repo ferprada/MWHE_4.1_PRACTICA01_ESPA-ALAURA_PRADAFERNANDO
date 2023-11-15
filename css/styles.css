@@ -121,7 +121,7 @@ section > h3 {
 }
 
 .image {
-    height: 550px;
+    height: 500px;
     cursor: pointer;
     transition: 0.5s cubic-bezier(0.24, 0.23, 1, 1);
 }
