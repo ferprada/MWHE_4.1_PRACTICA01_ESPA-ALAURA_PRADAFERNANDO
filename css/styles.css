@@ -20,62 +20,61 @@ header {
 }
 
 /* HEADER VIDEO */
-header > div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    border-radius: 20%;
-}
-
-header > div > video {
-    position: relative;
-    object-fit: cover; 
+header {
+    height: 800px;
+    background-image: url('http://dbarreto.com/'); 
+    background-size: cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header > h1 {
     color: hsla(0, 0%, 0%, .9);
-    font-size: 10em;
-    padding-right: 400px;
+    font-size: 2em;
 }
 
 
 
 /* MENÚ */
-.menu {
-    display: flex;
-    justify-content: right;
-    align-items: center;
+.encabezado {
     position: sticky;
-    height: 130px;
+    top: 0;
+    height: 80px;
     background-color: rgb(255, 251, 210);
     z-index: 1;
-    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu > ul {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    height: 90px;
+    height: 80px;
+    align-items: center;
 }
 
 #menu > ul > li {
-    padding: 0 45px;
     list-style: none;
+    padding: 0 100px;
 }
 
 #menu > ul > li > a {
-    font-weight: 500;
-    color: #000000;
     text-decoration: none;
+    color: black;
+    font-weight:700;
 }
 
 #menu > ul > li:first-child {
     display: none;
+    color: #000000;
+}
+
+#menu > ul > li > a {
+    color: black;
 }
 
 #menu > ul > li > a:hover {
