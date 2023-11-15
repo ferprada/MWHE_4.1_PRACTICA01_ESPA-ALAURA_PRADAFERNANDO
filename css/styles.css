@@ -18,6 +18,8 @@ header {
     background-color: rgb(255, 251, 210);
 }
 
+
+
 /* HEADER VIDEO */
 header > div {
     position: absolute;
@@ -57,7 +59,7 @@ h3 {
 /* MENÚ */
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     position: sticky;
     height: 130px;
@@ -109,16 +111,19 @@ section > h2 {
     color: #000000;
 }
 
-section > p {
-    margin: 0 800px;
-}
-
 
 
 /* THE SCOOP LAMP */
 .lamp {
     text-align: center;
     padding: 10px;
+}
+
+.lamp > p {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-left: 12em;
+    margin-right: 12em;
 }
 
 .container {
@@ -139,7 +144,7 @@ section > p {
 
 
 
-
+/* MIRROR */
 .carousel {
     position: relative;
 }
@@ -159,8 +164,6 @@ section > p {
     backface-visibility: hidden;
     transition: transform.1s ease-in-out;
 }
-
-
 
 
 
@@ -199,10 +202,52 @@ section > p {
 
 
 /* STUDIO */
-.card {
-    display: flex;
-    align-items: center;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    position: relative;
     width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 251, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay-text {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    padding: 3em;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
 }
 
 
@@ -217,7 +262,8 @@ footer {
 }
 
 .subscribe-container {
-    max-width: 800px;
+    padding-top: 3em;
+    max-width: 850px;
     margin: 0 auto;
     position: relative;
 }
@@ -232,7 +278,7 @@ footer {
 input {
     padding: 10px;
     box-sizing: border-box;
-    width: 60%;
+    width: 80%;
     border: none;
     border-radius: 5px 0 0 5px;
 }
