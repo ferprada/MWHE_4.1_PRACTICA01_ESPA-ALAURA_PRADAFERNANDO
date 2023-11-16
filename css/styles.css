@@ -348,7 +348,7 @@ button:hover {
 
 @media screen and (max-width: 420px) {
     .encabezado {
-        width: 158%;
+        width: 100%;
     }
     
     #menu {
@@ -380,7 +380,7 @@ button:hover {
     }
 
     section {
-        width: 158%;
+        width: 100%;
         padding: 45px;
     }
     
@@ -388,13 +388,9 @@ button:hover {
         margin: 5px;
     }
 
-    .encabezado {
-        width: 10%;
-    }
-
     header {
         height: 700px;
-        width: 158%;
+        width: 100%;
     }
 
     div#imagen {
@@ -407,11 +403,12 @@ button:hover {
     }
 
     footer {
-        width: 158%;
+        width: 100%;
     }
 
     #marquee {
         font-size: 20px;
+        width: 210px;
     }
 }
 
