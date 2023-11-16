@@ -57,6 +57,10 @@ header > h1 {
     align-items: center;
 }
 
+.btn-primary {
+    background-color: #000000;
+}
+
 #menu > ul > li {
     padding: 0 120px;
     list-style: none;
