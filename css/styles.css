@@ -104,6 +104,12 @@ section > h3 {
 }
 
 
+#home > img {
+    width: 25%;
+    height: auto;
+    display: block;
+}
+
 
 
 /* STUDIO */
@@ -327,6 +333,12 @@ button:hover {
         font-size: 5em;
     }
 
+    #home > img {
+        width: 80%;
+        height: auto;
+        display: flex;
+    }
+
     .lamp > p {
         font-size: 10px;
     }
@@ -349,11 +361,11 @@ button:hover {
 @media screen and (max-width: 420px) {
     .encabezado {
         width: 100%;
+        height: 230px;
     }
-    
+
     #menu {
-        width: 10em;
-        text-align: left;
+        width: 100em;
     }
 
     #menu > ul {
@@ -369,10 +381,6 @@ button:hover {
         height: 3em;
         display: flex;
         align-items: center;
-    }
-
-    #menu > ul > li:not(:first-child) {
-        display: none;
     }
 
     #menu > ul:hover > li {
@@ -393,9 +401,23 @@ button:hover {
         margin: 5px;
     }
 
+    #home > img {
+        width: 80%;
+        height: auto;
+        display: flex;
+    }
+
+    .lamp > p {
+        font-size: 5px;
+    }
+    
     div#imagen {
-        width: 600px;
-        height: 400px;
+        width: 345px;
+        height: 345px;
+    }
+
+    div#info {
+        width: 100px;
     }
 
     .image {
