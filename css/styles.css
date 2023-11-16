@@ -306,7 +306,7 @@ button:hover {
     font-size: 20px;
     color: #000000;
     padding: 10px;
-    width: 1900px;
+    width: 1000px;
     font-weight: normal;
 }
 
@@ -336,7 +336,7 @@ button:hover {
     }
 
     div#imagen {
-        width: 800px;
+        width: 700px;
     }
 
     #marquee {
