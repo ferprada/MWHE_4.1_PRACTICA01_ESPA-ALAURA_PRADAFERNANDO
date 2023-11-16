@@ -104,6 +104,12 @@ section > h3 {
 }
 
 
+#home > img {
+    width: 25%;
+    height: auto;
+    display: block;
+}
+
 
 
 /* STUDIO */
@@ -315,7 +321,7 @@ button:hover {
 /* MEDIA QUERIES */
 @media screen and (max-width: 900px) {
     #menu > ul > li {
-        padding: 0 70px;
+        padding: 0 30px 0px 0px; 
     }
     
     header {
@@ -325,6 +331,12 @@ button:hover {
     section > h2 {
         margin: 80px;
         font-size: 5em;
+    }
+
+    #home > img {
+        width: 80%;
+        height: auto;
+        display: flex;
     }
 
     .lamp > p {
@@ -348,12 +360,12 @@ button:hover {
 
 @media screen and (max-width: 420px) {
     .encabezado {
-        width: 158%;
+        width: 100%;
+        height: 230px;
     }
-    
+
     #menu {
-        width: 10em;
-        text-align: left;
+        width: 100em;
     }
 
     #menu > ul {
@@ -362,7 +374,7 @@ button:hover {
     }
 
     #menu > ul > li {
-        padding: 0 30px;
+        padding: 0 30px 0px 0px; 
     }
 
     #menu > ul > li:first-child {
@@ -371,16 +383,17 @@ button:hover {
         align-items: center;
     }
 
-    #menu > ul > li:not(:first-child) {
-        display: none;
-    }
-
     #menu > ul:hover > li {
         display: flex;
     }
 
+    header {
+        height: 700px;
+        width: 100%;
+    }
+
     section {
-        width: 158%;
+        width: 100%;
         padding: 45px;
     }
     
@@ -388,30 +401,36 @@ button:hover {
         margin: 5px;
     }
 
-    .encabezado {
-        width: 10%;
+    #home > img {
+        width: 80%;
+        height: auto;
+        display: flex;
     }
 
-    header {
-        height: 700px;
-        width: 158%;
+    .lamp > p {
+        font-size: 5px;
     }
-
+    
     div#imagen {
-        width: 600px;
-        height: 400px;
+        width: 345px;
+        height: 345px;
+    }
+
+    div#info {
+        width: 100px;
     }
 
     .image {
-        height: 210px;
+        height: 200px;
     }
 
     footer {
-        width: 158%;
+        width: 100%;
     }
 
     #marquee {
         font-size: 20px;
+        width: 100%;
     }
 }
 
