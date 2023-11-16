@@ -417,12 +417,7 @@ button:hover {
     }
 
     div#info {
-        width: 345px;
-        height: 345px;
-    }
-
-    div#info {
-        width: 500px;
+        width: 300px;
     }
 
     .image {
