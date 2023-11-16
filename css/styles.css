@@ -92,7 +92,7 @@ section {
 }
 
 section > h2 {
-    margin: 80px;
+    margin: 90px;
     font-size: 10em;
     color: #000000;
     text-align: center;
@@ -334,21 +334,50 @@ button:hover {
 
 
 @media screen and (max-width: 420px) {
+    #menu {
+        width: 10em;
+        text-align: left;
+    }
+
+    #menu > ul {
+        color: white;
+        flex-direction: column;
+    }
+
     #menu > ul > li {
         padding: 0 30px;
     }
 
+    #menu > ul > li:first-child {
+        height: 3em;
+        display: flex;
+        align-items: center;
+    }
+
+    #menu > ul > li:not(:first-child) {
+        display: none;
+    }
+
+    #menu > ul:hover > li {
+        display: flex;
+    }
+
+    section {
+        width:100%;
+        padding: 40px;
+    }
+    
+    section > h2 {
+        margin: 5px;
+    }
+
     .encabezado {
-        width: 152%;
+        width: 10%;
     }
 
     header {
         height: 700px;
-        width: 152%;
-    }
-
-    section {
-        width: 152%;
+        width: 100%;
     }
 
     div#imagen {
@@ -357,12 +386,14 @@ button:hover {
     }
 
     .image {
-        height: 375px;
+        height: 210px;
     }
 
     footer {
-        width: 152%;
+        width: 100%;
     }
+
+    
 }
 
 
