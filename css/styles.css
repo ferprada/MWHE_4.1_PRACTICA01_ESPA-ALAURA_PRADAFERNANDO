@@ -263,7 +263,7 @@ footer {
     color: #000000;
     padding: 20px;
     text-align: center;
-    height: 200px;
+    height: 300px;
 }
 
 .subscribe-container {
@@ -301,6 +301,15 @@ button:hover {
     color: rgb(255, 251, 210);
 }
 
+/* MARQUEE */
+#marquee {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+    width: 1900px;
+    font-weight: normal;
+}
+
 
 
 /* MEDIA QUERIES */
@@ -329,11 +338,19 @@ button:hover {
     div#imagen {
         width: 800px;
     }
+
+    #marquee {
+        width: 500px;
+    }
 }
 
 
 
 @media screen and (max-width: 420px) {
+    .encabezado {
+        width: 158%;
+    }
+    
     #menu {
         width: 10em;
         text-align: left;
@@ -363,8 +380,8 @@ button:hover {
     }
 
     section {
-        width:100%;
-        padding: 40px;
+        width: 158%;
+        padding: 45px;
     }
     
     section > h2 {
@@ -377,7 +394,7 @@ button:hover {
 
     header {
         height: 700px;
-        width: 100%;
+        width: 158%;
     }
 
     div#imagen {
@@ -390,10 +407,12 @@ button:hover {
     }
 
     footer {
-        width: 100%;
+        width: 158%;
     }
 
-    
+    #marquee {
+        font-size: 20px;
+    }
 }
 
 
