@@ -421,6 +421,10 @@ button:hover {
         height: 345px;
     }
 
+    div#info {
+        width: 500px;
+    }
+
     .image {
         height: 200px;
     }
